@@ -1,0 +1,7 @@
+<?php 
+
+// Modulo %
+// divisão /
+
+
+?>

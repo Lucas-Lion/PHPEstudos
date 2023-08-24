@@ -1,0 +1,51 @@
+/* 
+
+Operador de Módulo
+
+
+- O operador de módulo é inserido no código pelo símbolo de %
+
+- Sua função é realizar uma divisão;
+
+- Ele apresenta o resto da divisão;
+
+
+Operador de Exponenciação
+
+- Simbolo de **
+
+
+Operador de concatenação 
+
+- echo "teste" . "a" . "teste"
+
+
+Operador de auto incremento e auto decremento
+
+- Para incrementar usamos o operador ++ e para decrementar --,
+
+Exemplo: $n++ ou $n--
+
+- Será acrescido +1 ou decrescido -1
+
+- São utilizados para estruturas de repetição
+
+
+
+OPERADORES DE COMPARAÇÃO
+
+As operações com operadores de compração resultarão em TRUE or FALSE;
+
+Igualdade: ==
+idêntico: ===
+diferença: !=
+Não idêntico a: !==
+Maior e maior ou igual a: > e >=
+Menor e menor ou igual a: < e <=
+
+OPERADOR DE IGUALDADE
+
+
+
+
+*/

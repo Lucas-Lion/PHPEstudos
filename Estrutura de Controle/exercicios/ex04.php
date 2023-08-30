@@ -1,0 +1,7 @@
+<?php 
+
+$velocidade = 500;
+
+
+
+?>

@@ -11,7 +11,7 @@ function verificarAcesso($idade, $permissao) {
     } else if ($idade >= 18 && $permissao != true) {
         return "Acesso negado. Autorização necessária";
     } else if ($idade < 18 && $permissao == true) {
-        return "Acesso negado. Idade mínima requerida: 18 anos";
+        return "Acesso negado. Idade mínima requerida: 18 anoss";
     } else {
         return "Acesso negado.";
     }

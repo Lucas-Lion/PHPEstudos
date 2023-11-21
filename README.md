@@ -1,2 +1,2 @@
-# PHP_Udemy
+# Estudos PHP
 Estudos voltados ao PHP

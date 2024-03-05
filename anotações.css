@@ -60,5 +60,13 @@ WHILE
 		código
 }
 
+Instrução Continue
+
+- O continue pula uma execução do loop;
+
+- Quando o interpretador encontra a instrução, a próxima etapa do loop é executada;
+
+- Aplicado dentro de uma estrutura de Condição;
+
 
 */

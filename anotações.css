@@ -69,4 +69,21 @@ Instrução Continue
 - Aplicado dentro de uma estrutura de Condição;
 
 
+
+DO WHILE
+
+- O do while é uma estrutura de repetição;
+
+- Executa um código "n" vezes;
+
+- Até satisfazer a sua condição;
+
+- A diferença do while é que o do while executa o código pelo menos uma vez;
+
+- Exemplo:
+
+	do {
+		código
+	} while(condicao);
+	
 */

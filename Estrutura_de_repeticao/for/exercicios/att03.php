@@ -2,10 +2,13 @@
 
 $arr = [];
 
-for( $i = 0; $i < 0; $i++ ) {
+for( $i = 10; $i <= 20; $i++ ) {
     array_push( $arr, $i );
+}
 
-    for($i; $arr[$i] % 2 == 0; $i++ ) {
-        echo $arr[$i] ."\n";
+for( $i = 0; $i < count($arr); $i++ ) {
+
+    if( $arr[$i] % 2 != 0 ) {
+        echo "numero ímpar: $arr[$i] \n";
     }
 }

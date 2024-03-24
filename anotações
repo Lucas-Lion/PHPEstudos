@@ -1,0 +1,179 @@
+OPERADOR DE MÓDULO
+
+- O operador de módulo é inserido no código pelo símbolo de %
+
+- Sua função é realizar uma divisão;
+
+- Ele apresenta o resto da divisão;
+
+------------------------------------------------------------
+
+OPERADOR DE EXPONENCIAÇÃO
+
+- Simbolo de **
+
+------------------------------------------------------------
+
+OPERADOR DE CONCATENAÇÃO
+
+- echo "teste" . "a" . "teste"
+
+------------------------------------------------------------
+
+OPERADOR DE AUTO INCREMENTO E DECREMENTO
+
+- Para incrementar usamos o operador ++ e para decrementar --,
+
+Exemplo: $n++ ou $n--
+
+- Será acrescido +1 ou decrescido -1
+
+- São utilizados para estruturas de repetição
+
+------------------------------------------------------------
+
+OPERADORES DE COMPARAÇÃO
+
+As operações com operadores de compração resultarão em TRUE or FALSE;
+
+Igualdade: ==
+idêntico: ===
+diferença: !=
+Não idêntico a: !==
+Maior e maior ou igual a: > e >=
+Menor e menor ou igual a: < e <=
+
+------------------------------------------------------------
+
+WHILE
+
+- O while é uma estrutura de repetição, pode executar um código "n" vezes;
+
+- Até satisfazer a sua condição;
+
+- Geralmente é necessário um contador para atingir a condição;
+
+- Exemplo: 
+
+	while(condicao) {
+		código
+}
+
+------------------------------------------------------------
+
+CONTINUE
+
+- O continue pula uma execução do loop;
+
+- Quando o interpretador encontra a instrução, a próxima etapa do loop é executada;
+
+- Aplicado dentro de uma estrutura de Condição;
+
+------------------------------------------------------------
+
+DO WHILE
+
+- O do while é uma estrutura de repetição;
+
+- Executa um código "n" vezes;
+
+- Até satisfazer a sua condição;
+
+- A diferença do while é que o do while executa o código pelo menos uma vez;
+
+- Exemplo:
+
+	do {
+		código
+	} while(condicao);
+
+------------------------------------------------------------
+
+FOREACH
+
+ - orientada a um array;
+ 
+ Exemplo: 
+
+ foreach($array as $item) {
+
+	codigo
+
+ }
+
+------------------------------------------------------------
+
+INCLUDES 
+
+- Inserir um arquivo php ou html em outro;
+- Utilizar tudo que está declarado no arquivo incluido;
+- Não gera erro fatal, apenas um warning;
+
+------------------------------------------------------------
+
+REQUIRE 
+
+- Inserir arquivo php ou html;
+- Utilizar tudo que está declarado no arquivo;
+- gera erro fatal;
+
+------------------------------------------------------------
+
+INCLUDE_ONCE & REQUIRE_ONCE
+
+- Funcionam da mesma maneira do require e once;
+- Impedem que o mesmo arquivo seja adicionado mais de uma vez;
+- É o metodo mais indicado para templates em php;
+
+------------------------------------------------------------
+
+SHORTS TAGS
+
+- Para adicionar codigo php em uma page;
+- depende de uma configuração do servidor;
+- É desencorajado utilizá-lo;
+
+Exemplo: 
+
+<? echo "teste"; ?>
+
+------------------------------------------------------------
+
+EXIBIÇÃO DE CONTEÚDO
+
+- Técnica semelhante ao short tags;
+- Para exibir conteúdo sem o echo;
+- Ótima estratégia para resumir as chamadas PHP;
+
+Exemplo: 
+
+<?= "teste"; ?>
+
+------------------------------------------------------------
+
+INSERINDO PHP AO HTML
+
+- Está é uma das principais funcionalidades do PHP;
+- Inserir código dinâmico entre nossas tags;
+- As extensões podem ser .php ou .phtml;
+
+Exemplo: 
+
+<h1><?= $title ?></h1>
+
+------------------------------------------------------------
+
+O QUE SÃO FUNÇÕES
+
+- Blocos de códigos que possuem nomes;
+- Realizam uma ação e são reaproveitáveis;
+- Reduz a duplicidade;
+- Melhora a manutenção;
+
+------------------------------------------------------------
+
+CHAMADA DE FUNÇÕES
+
+- Deve adicionar: nomeDaFunction();
+- Algumas functions exigem parâmetros;
+- É chamado também de invocar;

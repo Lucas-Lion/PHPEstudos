@@ -177,3 +177,21 @@ CHAMADA DE FUNÇÕES
 - Deve adicionar: nomeDaFunction();
 - Algumas functions exigem parâmetros;
 - É chamado também de invocar;
+
+------------------------------------------------------------
+
+FUNÇÃO COM PARÂMETROS
+
+- Podemos passar parametros para uma função;
+- Estes parametros podem ser utilizados dentro da função;
+- Não há limite de parametros;
+
+Exemplo:
+
+function nomeDaFunction($parametro1, $parametro2) {
+
+	código
+
+}
+
+------------------------------------------------------------
